@@ -37,7 +37,7 @@ document.querySelect('#test').addTapEvent(function(){
 
 ```
 
-
+  
 ##Case
 
 这里给一个移动端案例，同时也包含了闭包的知识，前20项为tap事件，后30项为click事件，大家可以在手机上试一下效果，感受一下两种方法的差别：
