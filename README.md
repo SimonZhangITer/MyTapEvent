@@ -46,7 +46,7 @@ document.querySelect('#test').addTapEvent(function(){
 
 ```bash
 node server.js
-```
+``` 
 Server runing at port:3000
 
 在浏览器中输入以下链接即可看到页面：
