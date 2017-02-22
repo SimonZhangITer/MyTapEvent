@@ -11,7 +11,6 @@
                 tapScollHeight = 15, //水平或垂直方向移动超过15px测判定为取消（根据chrome浏览器默认的判断取消点击的移动量)
                 cancleClick = false;
             this.addEventListener('touchstart', function() {
-                var tempScroll = this.getAttribute('data-muse-component') == "html.system.Scroller" ? this : document.querySelector('[data-muse-component="html.system.Scroller"]');
                 tapStartTime = event.timeStamp;
                 var touch = event.changedTouches[0];
                 tapStartClientX = touch.clientX;
