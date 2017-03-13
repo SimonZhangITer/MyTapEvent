@@ -11,7 +11,7 @@
 
 本人最近在做微信项目，由于fastclick插件存在一定弊端，因此开发了一个简单的tap事件，主要思想有以下几点：
 
-##Thinking
+##Thinking 
 
 - 一次tap事件包含touchstart和touchmove(轻微移动)以及touchend三种状态
 - callback方法在touchend后执行
